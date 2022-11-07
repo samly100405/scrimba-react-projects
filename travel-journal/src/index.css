@@ -1,0 +1,84 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+
+/* All styles for the header */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F55A5A;
+  padding: 10px;
+}
+
+.header-icon {
+  margin: 5px;
+}
+
+.header-title {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+/* All styles for the cards */
+.cards-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 10%;
+}
+
+.card-container {
+  display: flex;
+  max-width: 800px;
+}
+
+
+.card-image {
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.card-text {
+  margin: 20px;
+}
+
+.card-subtitle {
+  display: flex;
+}
+
+.card-subtitle > .card-image {
+  width: 10px;
+  height: auto;
+  margin: 0px 5px;
+  object-fit: contain;
+}
+
+.card-location-link {
+  color: #918E9B;
+  margin: 0px 15px;
+}
+
+.card-location-text {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.card-location-title {
+  margin: 0px;
+}
+
+.card-date {
+  margin: 0px;
+  font-size: 16px;
+}
